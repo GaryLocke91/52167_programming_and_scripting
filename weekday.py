@@ -1,11 +1,12 @@
 #This program determines if today is a weekday or not
-#Imports the datetime module
+
 import datetime
-#Stores the current date and time in a variable
+
+#Returns the day of the week using the appropriate method in the datetime module
 now = datetime.datetime.now()
-#Returns the day of the week as an interger
 x = now.weekday()
-#If x is less than 5, it's a weekday
+
+#If x is less than 5, it's a weekday and the appropriate message is printed
 if x < 5:
     print("Yes, unfortunately today is a weekday.")
 else:

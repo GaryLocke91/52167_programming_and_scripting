@@ -1,7 +1,9 @@
 #This program reads a text file and outputs the number of times the character 'e' occurs
+
 #Asks the user to input a file name
 file_name = input("Please enter a text file name: ")
 e_count = 0
+
 #Opens and reads the file, and stores it in a variable
 with open(file_name) as f:
     read_data = f.read()
