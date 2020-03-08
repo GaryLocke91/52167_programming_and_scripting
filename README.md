@@ -1,5 +1,5 @@
 # 52167_programming_and_scripting
-This repository contains the following scripts:
+This repository contains six Python scripts which have been written as part of the Programming and Scripting coursework. A brief description of the function of each script is outlined below.
 bmi.py - Calculates a person's Body Mass Index (BMI)
 collatz.py - Asks the user to input any positive interger and outputs the successive values following a particular calculation
 es.py - Reads a text file and outputs the number of times the character 'e' occurs

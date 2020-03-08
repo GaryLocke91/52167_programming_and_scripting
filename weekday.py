@@ -1,5 +1,5 @@
 #This program determines if today is a weekday or not
-
+#Imports the datetime module
 import datetime
 
 #Returns the day of the week using the appropriate method in the datetime module

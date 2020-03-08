@@ -1,6 +1,6 @@
 #This program asks the user to input any positive interger and outputs the successive values following a particular calculation
 
-#Asks the user to input a positive interger
+#Asks the user to input a positive interger and assigns it to a variable
 user_input = input("Please enter a positive integer: ")
 num = int(user_input)
 print(num)

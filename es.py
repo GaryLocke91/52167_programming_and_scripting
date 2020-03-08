@@ -13,5 +13,5 @@ with open(file_name) as f:
         #Loops through each character of each word and increments the count variable
         for i in words:
             if 'e' in i or 'E' in i:
-                e_count += 1
+                e_count += 1               
 print(e_count)
